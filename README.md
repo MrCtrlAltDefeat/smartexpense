@@ -1,4 +1,4 @@
-# 🧾 SmartExpense
+# SmartExpense 
 
 <p align="center">
   <strong>Personal finance tracker built with Next.js, FastAPI, and PostgreSQL.</strong><br/>
@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <img alt="Backend CI" src="https://github.com/YOUR_USERNAME/smartexpense/actions/workflows/backend.yml/badge.svg" />
-  <img alt="Frontend CI" src="https://github.com/YOUR_USERNAME/smartexpense/actions/workflows/frontend.yml/badge.svg" />
+  <img alt="Backend CI" src="https://github.com/MrCtrlAltDefeat/smartexpense/actions/workflows/backend.yml/badge.svg" />
+  <img alt="Frontend CI" src="https://github.com/MrCtrlAltDefeat/smartexpense/actions/workflows/frontend.yml/badge.svg" />
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green" />
   <img alt="Python" src="https://img.shields.io/badge/python-3.11-blue" />
   <img alt="Next.js" src="https://img.shields.io/badge/next.js-14-black" />
@@ -15,7 +15,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - **JWT authentication** — register, login, persistent sessions
 - **Expense CRUD** — add, edit, delete with category, amount, date, and note
@@ -27,7 +27,7 @@
 
 ---
 
-## 🏗 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -40,7 +40,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Option A — Docker (recommended)
 
@@ -95,7 +95,7 @@ Open http://localhost:3000 and register an account.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 smartexpense/
@@ -149,7 +149,7 @@ smartexpense/
 
 ---
 
-## 🔌 API Reference
+## API Reference
 
 All endpoints except `/auth/*` require an `Authorization: Bearer <token>` header.
 
@@ -195,7 +195,7 @@ All endpoints except `/auth/*` require an `Authorization: Bearer <token>` header
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 cd backend
@@ -222,7 +222,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 ### Backend → Render
 
@@ -250,11 +250,6 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 | `VERCEL_PROJECT_ID` | Vercel project settings |
 
 ---
-
-## 🤝 Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for setup instructions, branch conventions, commit message format, and PR guidelines.
-
 ---
 
 ## 📄 License
